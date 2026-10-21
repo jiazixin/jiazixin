@@ -67,38 +67,44 @@ def render_mine(items):
                 f'<a href="https://github.com/{repo}/releases"><img src="https://img.shields.io/badge/release-{label}-1a7f37?style=flat-square" alt="{tag}"></a>'
             )
         cells.append(
-            f'<tr>\n<td width="64" align="center" valign="middle">\n'
-            f'<img src="{p["logo"]}" width="44" alt="">\n'
-            f"</td>\n<td>\n"
+            f'<td width="50%" valign="top">\n'
+            f'<img src="{p["logo"]}" width="40" align="left" alt="">\n'
             f'<a href="https://github.com/{repo}"><b>{p["title"]}</b></a><br>\n'
-            f'{p["desc"]}<br>\n'
+            f'<sub>{p["desc"]}</sub>\n'
+            f'<br clear="left"><br>\n'
             + "\n".join(badges)
-            + "\n</td>\n</tr>"
+            + "\n</td>"
         )
-    return "<table>\n" + "\n".join(cells) + "\n</table>"
+    rows = ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
+    return "<table>\n" + "\n".join(rows) + "\n</table>"
 
 
 def render_watching(groups):
-    # 两列：分组可用 "col": 0/1 指定列，否则放进当前更短的那一列
-    cols, heights = [[], []], [0, 0]
+    # 一张两列表格：每个分组一个 tbody，标题行横跨两列，下面每行两个项目，保证全表对齐
+    bodies = []
     for g in groups:
-        lines = []
-        for repo, desc in g["repos"]:
+        cells = []
+        for repo, desc, *display in g["repos"]:
             owner, name = repo.split("/")
             try:
                 stars = "★&nbsp;" + fmt_stars(api(f"repos/{repo}")["stargazers_count"])
             except Exception:
                 stars = ""
-            lines.append(
-                f'<img src="https://github.com/{owner}.png?size=40" width="16" height="16" alt=""> '
-                f'<a href="https://github.com/{repo}"><b>{name}</b></a> · {desc} <sub><code>{stars}</code></sub>'
+            cells.append(
+                f'<td width="50%" valign="top">\n'
+                f'<img src="https://github.com/{owner}.png?size=64" width="32" height="32" align="left" alt="">\n'
+                f'<a href="https://github.com/{repo}"><b>{display[0] if display else name}</b></a>&nbsp;&nbsp;<sub>{stars}</sub><br>\n'
+                f"<sub>{desc}</sub>\n"
+                f"</td>"
             )
-        block = f"<h4>{g['name']}</h4>\n" + "<br>\n".join(lines)
-        i = g.get("col", 0 if heights[0] <= heights[1] else 1)
-        cols[i].append(block)
-        heights[i] += len(g["repos"]) * 1.6 + 2
-    tds = [f'<td width="50%" valign="top">\n\n' + "\n\n".join(c) + "\n\n</td>" for c in cols]
-    return "<table>\n<tr>\n" + "\n".join(tds) + "\n</tr>\n</table>"
+        if len(cells) % 2:
+            cells.append('<td width="50%"></td>')
+        # 1px 透明占位图把表格撑满整栏（GitHub 的表格默认按内容收缩宽度）
+        spacer = '<img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">' if not bodies else ""
+        rows = [f'<tr>\n<th colspan="2" align="left">{spacer}{g["name"]}</th>\n</tr>']
+        rows += ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
+        bodies.append("<tbody>\n" + "\n".join(rows) + "\n</tbody>")
+    return "<table>\n" + "\n".join(bodies) + "\n</table>"
 
 
 def replace(text, key, body):

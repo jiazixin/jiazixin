@@ -32,74 +32,62 @@
   "watching": [
     {
       "name": "🌐 网络与代理",
-      "col": 0,
       "repos": [
-        ["fatedier/frp", "内网穿透，把 NAT 后的服务暴露到公网"],
+        ["fatedier/frp", "内网穿透，暴露 NAT 后的服务"],
         ["SagerNet/sing-box", "通用代理平台"],
-        ["mihomo-party-org/clash-party", "基于 Mihomo 内核的桌面客户端"],
-        ["MetaCubeX/ClashMetaForAndroid", "Android 规则代理客户端"],
-        ["caddyserver/caddy", "自动 HTTPS 的 Web 服务器与反向代理"],
-        ["jeessy2/ddns-go", "简单好用的 DDNS，支持主流服务商"],
-        ["sky22333/hubproxy", "Docker 镜像与 GitHub 加速代理"]
+        ["mihomo-party-org/clash-party", "Mihomo 内核的桌面客户端"],
+        ["MetaCubeX/ClashMetaForAndroid", "Android 规则代理客户端", "ClashMeta Android"],
+        ["caddyserver/caddy", "自动 HTTPS 的 Web 服务器"],
+        ["jeessy2/ddns-go", "支持主流服务商的 DDNS"]
       ]
     },
     {
       "name": "📈 监控与可观测",
-      "col": 1,
       "repos": [
         ["prometheus/prometheus", "监控系统与时序数据库"],
         ["prometheus/node_exporter", "主机指标采集器"],
-        ["google/cadvisor", "容器资源使用与性能分析"],
-        ["grafana/loki", "日志聚合，“日志界的 Prometheus”"],
-        ["grafana/alloy", "可编程管道的 OTel Collector"],
-        ["henrygd/beszel", "轻量服务器监控，带历史数据与告警"]
+        ["google/cadvisor", "容器资源与性能分析"],
+        ["grafana/loki", "日志聚合系统"],
+        ["grafana/alloy", "OTel Collector 发行版"],
+        ["henrygd/beszel", "轻量服务器监控与告警"]
       ]
     },
     {
-      "name": "🐳 镜像仓库与制品",
-      "col": 1,
+      "name": "🐳 云原生与镜像仓库",
       "repos": [
-        ["goharbor/harbor", "CNCF 毕业的云原生镜像仓库"],
+        ["goharbor/harbor", "云原生镜像仓库"],
         ["goharbor/harbor-cli", "Harbor 官方命令行"],
-        ["project-zot/zot", "纯 OCI 原生的镜像仓库"],
-        ["regclient/regclient", "Docker / OCI 仓库客户端与 regctl"]
+        ["project-zot/zot", "OCI 原生镜像仓库"],
+        ["regclient/regclient", "OCI 仓库客户端与 regctl"],
+        ["etcd-io/etcd", "分布式可靠键值存储"],
+        ["opentofu/opentofu", "开源的基础设施即代码"]
       ]
     },
     {
       "name": "🔐 证书与 PKI",
-      "col": 0,
       "repos": [
-        ["go-acme/lego", "Go 实现的 Let's Encrypt / ACME 客户端"],
-        ["smallstep/certificates", "私有 CA（X.509 / SSH）与 ACME"],
-        ["smallstep/cli", "X.509 / JWT / OAuth / OTP 瑞士军刀"],
-        ["cloudflare/cfssl", "Cloudflare 的 PKI / TLS 工具包"]
+        ["go-acme/lego", "Let's Encrypt / ACME 客户端"],
+        ["smallstep/certificates", "私有 CA 与 ACME 服务"],
+        ["smallstep/cli", "X.509 / JWT 瑞士军刀", "step cli"],
+        ["cloudflare/cfssl", "Cloudflare 的 PKI 工具包"]
       ]
     },
     {
-      "name": "🗂 文件、NAS 与导航",
-      "col": 0,
+      "name": "🗂 文件与自托管",
       "repos": [
-        ["OpenListTeam/OpenList", "AList 社区分支，多存储文件列表"],
-        ["sigoden/dufs", "支持上传、搜索、WebDAV 的文件服务"],
-        ["hslr-s/sun-panel", "服务器 / NAS 导航面板"]
-      ]
-    },
-    {
-      "name": "☁️ 基础设施",
-      "col": 1,
-      "repos": [
-        ["etcd-io/etcd", "分布式系统的可靠键值存储"],
-        ["opentofu/opentofu", "开源的基础设施即代码工具"]
+        ["OpenListTeam/OpenList", "多存储聚合的文件列表"],
+        ["sigoden/dufs", "支持 WebDAV 的文件服务器"],
+        ["hslr-s/sun-panel", "服务器 / NAS 导航面板"],
+        ["sky22333/hubproxy", "Docker 与 GitHub 加速代理"]
       ]
     },
     {
       "name": "🍎 macOS 与装机",
-      "col": 1,
       "repos": [
-        ["iina/iina", "macOS 上的现代视频播放器"],
-        ["ninxsoft/Mist", "自动下载 macOS 固件与安装器"],
-        ["Nongfsq/ftop", "Apple Silicon 上安静的悬浮系统监控"],
-        ["ventoy/Ventoy", "一个 U 盘装多个系统镜像"]
+        ["iina/iina", "macOS 现代视频播放器", "IINA"],
+        ["ninxsoft/Mist", "下载 macOS 固件与安装器"],
+        ["Nongfsq/ftop", "Apple Silicon 系统监控"],
+        ["ventoy/Ventoy", "多系统启动 U 盘方案"]
       ]
     }
   ]
