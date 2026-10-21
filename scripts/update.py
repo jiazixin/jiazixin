@@ -15,14 +15,62 @@ ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 DATA = ROOT / "projects.json"
 
+# 技术栈小标签：(显示名, 颜色)，颜色取 GitHub linguist 的语言色
 STACK = {
-    "go": "https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white",
-    "react": "https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB",
-    "vue": "https://img.shields.io/badge/Vue_3-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D",
-    "ts": "https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white",
-    "swift": "https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white",
-    "kotlin": "https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white",
+    "go": ("Go", "#00ADD8"),
+    "react": ("React", "#61DAFB"),
+    "vue": ("Vue 3", "#41B883"),
+    "ts": ("TypeScript", "#3178C6"),
+    "swift": ("Swift", "#F05138"),
+    "kotlin": ("Kotlin", "#A97BFF"),
 }
+
+BADGES = ROOT / "assets" / "badges"
+RELEASE_COLOR = "#2EA043"
+# 文字用中性灰：README 里的 SVG 拿不到 GitHub 的明暗主题，这个灰在白底和深色底上都看得清
+TEXT_COLOR = "#768390"
+# Arial 字宽（单位 em，ASCII 32..126），配合 textLength 让各平台字体下标签宽度一致
+ARIAL = [
+    0.278, 0.278, 0.355, 0.556, 0.556, 0.889, 0.667, 0.191, 0.333, 0.333, 0.389, 0.584, 0.278, 0.333, 0.278, 0.278,
+    0.556, 0.556, 0.556, 0.556, 0.556, 0.556, 0.556, 0.556, 0.556, 0.556, 0.278, 0.278, 0.584, 0.584, 0.584, 0.556,
+    1.015, 0.667, 0.667, 0.722, 0.722, 0.667, 0.611, 0.778, 0.722, 0.278, 0.5, 0.667, 0.556, 0.833, 0.722, 0.778,
+    0.667, 0.778, 0.722, 0.667, 0.611, 0.722, 0.667, 0.944, 0.667, 0.667, 0.611, 0.278, 0.278, 0.278, 0.469, 0.556,
+    0.333, 0.556, 0.556, 0.5, 0.556, 0.556, 0.278, 0.556, 0.556, 0.222, 0.222, 0.5, 0.222, 0.833, 0.556, 0.556,
+    0.556, 0.556, 0.333, 0.5, 0.278, 0.556, 0.5, 0.722, 0.5, 0.5, 0.5, 0.334, 0.26, 0.334, 0.584,
+]
+# Octicons tag-16（MIT）
+TAG_ICON = (
+    "M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 "
+    "5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 "
+    "0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 "
+    "0 1 1 0 2 1 1 0 0 1 0-2Z"
+)
+CHIP_H = 18
+CHIP_FONT = 11
+
+
+def chip(path, label, color, icon=None, text_color=TEXT_COLOR):
+    """画一个圆角小标签：浅色描边 + 半透明底，左侧圆点或图标，写到 assets/badges。"""
+    tw = round(sum(ARIAL[ord(c) - 32] if 32 <= ord(c) < 127 else 1 for c in label) * CHIP_FONT, 1)
+    lead = 8 + (10 if icon else 6) + 5
+    w = round(lead + tw + 8)
+    mark = (
+        f'<path transform="translate(8 4) scale(.625)" fill="{color}" d="{icon}"/>'
+        if icon
+        else f'<circle cx="11" cy="9" r="3" fill="{color}"/>'
+    )
+    svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{CHIP_H}" viewBox="0 0 {w} {CHIP_H}" role="img" aria-label="{label}">'
+        f'<rect x=".5" y=".5" width="{w - 1}" height="{CHIP_H - 1}" rx="{(CHIP_H - 1) / 2}" fill="{color}" fill-opacity=".12" stroke="{color}" stroke-opacity=".45"/>'
+        f"{mark}"
+        f'<text x="{lead}" y="12.5" textLength="{tw}" lengthAdjust="spacingAndGlyphs" fill="{text_color}" '
+        f'font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="{CHIP_FONT}">{label}</text>'
+        "</svg>\n"
+    )
+    BADGES.mkdir(parents=True, exist_ok=True)
+    (BADGES / path).write_text(svg, encoding="utf-8")
+    return f"assets/badges/{path}"
+
 
 # 1px 透明占位图把表格撑满整栏（GitHub 的表格默认按内容收缩宽度）
 SPACER = '<img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">'
@@ -64,11 +112,14 @@ def render_mine(items):
             tag = rel[0]["tag_name"] if rel else None
         except Exception:
             tag = None
-        badges = [f'<img src="{STACK[s]}" alt="{s}">' for s in p.get("stack", [])]
+        badges = []
+        for key in p.get("stack", []):
+            label, color = STACK[key]
+            badges.append(f'<img src="{chip(f"{key}.svg", label, color)}" height="{CHIP_H}" alt="{label}">')
         if tag:
-            label = tag.replace("-", "--").replace("_", "__")
+            src = chip(f"release-{repo.split('/')[1]}.svg", tag, RELEASE_COLOR, TAG_ICON, RELEASE_COLOR)
             badges.append(
-                f'<a href="https://github.com/{repo}/releases"><img src="https://img.shields.io/badge/release-{label}-1a7f37?style=flat-square" alt="{tag}"></a>'
+                f'<a href="https://github.com/{repo}/releases"><img src="{src}" height="{CHIP_H}" alt="{tag}"></a>'
             )
         # logo 是 44x96 的高图（logo 贴顶，与标题平齐），占住左侧整列，简介折行也会对齐在右边
         cells.append(

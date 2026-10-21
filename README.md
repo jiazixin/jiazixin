@@ -20,17 +20,17 @@
 <img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">
 <img src="assets/logos/harbor-console.svg" width="44" height="96" align="left" alt="">
 <a href="https://github.com/jiazixin/harbor-console"><b>Harbor Console</b></a><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="react">
-<a href="https://github.com/jiazixin/harbor-console/releases"><img src="https://img.shields.io/badge/release-v1.0.0-1a7f37?style=flat-square" alt="v1.0.0"></a><br>
+<img src="assets/badges/go.svg" height="18" alt="Go">
+<img src="assets/badges/react.svg" height="18" alt="React">
+<a href="https://github.com/jiazixin/harbor-console/releases"><img src="assets/badges/release-harbor-console.svg" height="18" alt="v1.0.0"></a><br>
 <sub>Harbor v2.15 一体化管理控制台，凭据只留服务端</sub>
 </td>
 <td width="50%" valign="top">
 <img src="assets/logos/mirrordock.svg" width="44" height="96" align="left" alt="">
 <a href="https://github.com/jiazixin/mirrordock"><b>MirrorDock · 源仓</b></a><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
-<img src="https://img.shields.io/badge/Vue_3-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="vue">
-<a href="https://github.com/jiazixin/mirrordock/releases"><img src="https://img.shields.io/badge/release-v1.0.1-1a7f37?style=flat-square" alt="v1.0.1"></a><br>
+<img src="assets/badges/go.svg" height="18" alt="Go">
+<img src="assets/badges/vue.svg" height="18" alt="Vue 3">
+<a href="https://github.com/jiazixin/mirrordock/releases"><img src="assets/badges/release-mirrordock.svg" height="18" alt="v1.0.1"></a><br>
 <sub>软件源镜像服务：同步 rsync / DNF / GitHub Release</sub>
 </td>
 </tr>
@@ -38,17 +38,17 @@
 <td width="50%" valign="top">
 <img src="assets/logos/video-rename.svg" width="44" height="96" align="left" alt="">
 <a href="https://github.com/jiazixin/video-rename"><b>video-rename · 视频命名</b></a><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
-<img src="https://img.shields.io/badge/Vue_3-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="vue">
-<a href="https://github.com/jiazixin/video-rename/releases"><img src="https://img.shields.io/badge/release-v1.1.1-1a7f37?style=flat-square" alt="v1.1.1"></a><br>
+<img src="assets/badges/go.svg" height="18" alt="Go">
+<img src="assets/badges/vue.svg" height="18" alt="Vue 3">
+<a href="https://github.com/jiazixin/video-rename/releases"><img src="assets/badges/release-video-rename.svg" height="18" alt="v1.1.1"></a><br>
 <sub>在浏览器里整理媒体文件，视觉模型按截图自动起名</sub>
 </td>
 <td width="50%" valign="top">
 <img src="assets/logos/navi.svg" width="44" height="96" align="left" alt="">
 <a href="https://github.com/jiazixin/navi"><b>Navi</b></a><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="react">
-<a href="https://github.com/jiazixin/navi/releases"><img src="https://img.shields.io/badge/release-v1.0.1-1a7f37?style=flat-square" alt="v1.0.1"></a><br>
+<img src="assets/badges/go.svg" height="18" alt="Go">
+<img src="assets/badges/react.svg" height="18" alt="React">
+<a href="https://github.com/jiazixin/navi/releases"><img src="assets/badges/release-navi.svg" height="18" alt="v1.0.1"></a><br>
 <sub>个人导航起始页：一个 YAML 文件、一个二进制</sub>
 </td>
 </tr>
@@ -56,8 +56,9 @@
 <td width="50%" valign="top">
 <img src="assets/logos/vvideo.svg" width="44" height="96" align="left" alt="">
 <a href="https://github.com/jiazixin/vvideo"><b>VVideo</b></a><br>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="kotlin"><br>
+<img src="assets/badges/go.svg" height="18" alt="Go">
+<img src="assets/badges/kotlin.svg" height="18" alt="Kotlin">
+<a href="https://github.com/jiazixin/vvideo/releases"><img src="assets/badges/release-vvideo.svg" height="18" alt="v0.1.0-rc.1"></a><br>
 <sub>自托管 NAS 照片视频库，配原生安卓应用浏览播放</sub>
 </td>
 <td width="50%"></td>
