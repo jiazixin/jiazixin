@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="jiazixin — 自托管工具 · 云原生基础设施 · 单二进制交付">
+  <img src="assets/banner.svg" width="100%" alt="自托管工具 · 云原生基础设施">
 </p>
 
 <p align="center">
@@ -10,7 +10,6 @@
 
 - 🧱 喜欢做**自托管、内网友好**的小工具：Go 后端 + 内嵌前端，**一个二进制**就能跑，不依赖 CDN 和数据库
 - 🔭 平时关注容器镜像仓库、可观测性、网络代理和证书 / PKI 这些基础设施
-- 📍 内蒙古
 
 ## 📦 我的项目
 
@@ -18,19 +17,18 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/jiazixin/harbor-console/main/web/public/favicon.svg" width="40" align="left" alt="">
+<img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">
+<img src="assets/logos/harbor-console.svg" width="44" height="104" align="left" alt="">
 <a href="https://github.com/jiazixin/harbor-console"><b>Harbor Console</b></a><br>
-<sub>Harbor v2.15 一体化管理控制台，凭据只留在服务端，适合纯内网</sub>
-<br clear="left"><br>
+<sub>Harbor v2.15 一体化管理控制台，凭据只留服务端</sub><br>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
 <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="react">
 <a href="https://github.com/jiazixin/harbor-console/releases"><img src="https://img.shields.io/badge/release-v1.0.0-1a7f37?style=flat-square" alt="v1.0.0"></a>
 </td>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/jiazixin/mirrordock/main/web/src/assets/logo.svg" width="40" align="left" alt="">
+<img src="assets/logos/mirrordock.svg" width="44" height="104" align="left" alt="">
 <a href="https://github.com/jiazixin/mirrordock"><b>MirrorDock · 源仓</b></a><br>
-<sub>软件源同步与镜像服务：rsync / DNF / GitHub Release 同步后直接对外下载</sub>
-<br clear="left"><br>
+<sub>软件源镜像服务：同步 rsync / DNF / GitHub Release</sub><br>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
 <img src="https://img.shields.io/badge/Vue_3-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="vue">
 <a href="https://github.com/jiazixin/mirrordock/releases"><img src="https://img.shields.io/badge/release-v1.0.1-1a7f37?style=flat-square" alt="v1.0.1"></a>
@@ -38,19 +36,17 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<img src="https://raw.githubusercontent.com/jiazixin/video-rename/main/web/public/logo.png" width="40" align="left" alt="">
-<a href="https://github.com/jiazixin/video-rename"><b>video-rename · 视频命名工作台</b></a><br>
-<sub>浏览器里浏览、播放、批量改名媒体文件，可用视觉模型按截图生成中文文件名</sub>
-<br clear="left"><br>
+<img src="assets/logos/video-rename.svg" width="44" height="104" align="left" alt="">
+<a href="https://github.com/jiazixin/video-rename"><b>video-rename · 视频命名</b></a><br>
+<sub>在浏览器里整理媒体文件，视觉模型按截图自动起名</sub><br>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
 <img src="https://img.shields.io/badge/Vue_3-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="vue">
 <a href="https://github.com/jiazixin/video-rename/releases"><img src="https://img.shields.io/badge/release-v1.1.1-1a7f37?style=flat-square" alt="v1.1.1"></a>
 </td>
 <td width="50%" valign="top">
-<img src="assets/navi.svg" width="40" align="left" alt="">
+<img src="assets/logos/navi.svg" width="44" height="104" align="left" alt="">
 <a href="https://github.com/jiazixin/navi"><b>Navi</b></a><br>
-<sub>只读的个人导航起始页：一个 YAML 文件、一个二进制，内外网地址自动切换</sub>
-<br clear="left"><br>
+<sub>个人导航起始页：一个 YAML 文件、一个二进制</sub><br>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go">
 <img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB" alt="react">
 <a href="https://github.com/jiazixin/navi/releases"><img src="https://img.shields.io/badge/release-v1.0.1-1a7f37?style=flat-square" alt="v1.0.1"></a>

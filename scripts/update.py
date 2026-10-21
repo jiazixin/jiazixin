@@ -23,6 +23,9 @@ STACK = {
     "swift": "https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white",
 }
 
+# 1px 透明占位图把表格撑满整栏（GitHub 的表格默认按内容收缩宽度）
+SPACER = '<img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">'
+
 
 def token():
     if t := os.environ.get("GITHUB_TOKEN"):
@@ -66,12 +69,13 @@ def render_mine(items):
             badges.append(
                 f'<a href="https://github.com/{repo}/releases"><img src="https://img.shields.io/badge/release-{label}-1a7f37?style=flat-square" alt="{tag}"></a>'
             )
+        # logo 是 44x104 的高图（logo 垂直居中），占住左侧整列，简介折行也会对齐在右边
         cells.append(
             f'<td width="50%" valign="top">\n'
-            f'<img src="{p["logo"]}" width="40" align="left" alt="">\n'
+            + (SPACER + "\n" if not cells else "")
+            + f'<img src="{p["logo"]}" width="44" height="104" align="left" alt="">\n'
             f'<a href="https://github.com/{repo}"><b>{p["title"]}</b></a><br>\n'
-            f'<sub>{p["desc"]}</sub>\n'
-            f'<br clear="left"><br>\n'
+            f'<sub>{p["desc"]}</sub><br>\n'
             + "\n".join(badges)
             + "\n</td>"
         )
@@ -99,8 +103,7 @@ def render_watching(groups):
             )
         if len(cells) % 2:
             cells.append('<td width="50%"></td>')
-        # 1px 透明占位图把表格撑满整栏（GitHub 的表格默认按内容收缩宽度）
-        spacer = '<img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">' if not bodies else ""
+        spacer = SPACER if not bodies else ""
         rows = [f'<tr>\n<th colspan="2" align="left">{spacer}{g["name"]}</th>\n</tr>']
         rows += ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
         bodies.append("<tbody>\n" + "\n".join(rows) + "\n</tbody>")

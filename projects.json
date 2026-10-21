@@ -3,29 +3,29 @@
     {
       "repo": "jiazixin/harbor-console",
       "title": "Harbor Console",
-      "logo": "https://raw.githubusercontent.com/jiazixin/harbor-console/main/web/public/favicon.svg",
-      "desc": "Harbor v2.15 一体化管理控制台，凭据只留在服务端，适合纯内网",
+      "logo": "assets/logos/harbor-console.svg",
+      "desc": "Harbor v2.15 一体化管理控制台，凭据只留服务端",
       "stack": ["go", "react"]
     },
     {
       "repo": "jiazixin/mirrordock",
       "title": "MirrorDock · 源仓",
-      "logo": "https://raw.githubusercontent.com/jiazixin/mirrordock/main/web/src/assets/logo.svg",
-      "desc": "软件源同步与镜像服务：rsync / DNF / GitHub Release 同步后直接对外下载",
+      "logo": "assets/logos/mirrordock.svg",
+      "desc": "软件源镜像服务：同步 rsync / DNF / GitHub Release",
       "stack": ["go", "vue"]
     },
     {
       "repo": "jiazixin/video-rename",
-      "title": "video-rename · 视频命名工作台",
-      "logo": "https://raw.githubusercontent.com/jiazixin/video-rename/main/web/public/logo.png",
-      "desc": "浏览器里浏览、播放、批量改名媒体文件，可用视觉模型按截图生成中文文件名",
+      "title": "video-rename · 视频命名",
+      "logo": "assets/logos/video-rename.svg",
+      "desc": "在浏览器里整理媒体文件，视觉模型按截图自动起名",
       "stack": ["go", "vue"]
     },
     {
       "repo": "jiazixin/navi",
       "title": "Navi",
-      "logo": "assets/navi.svg",
-      "desc": "只读的个人导航起始页：一个 YAML 文件、一个二进制，内外网地址自动切换",
+      "logo": "assets/logos/navi.svg",
+      "desc": "个人导航起始页：一个 YAML 文件、一个二进制",
       "stack": ["go", "react"]
     }
   ],
