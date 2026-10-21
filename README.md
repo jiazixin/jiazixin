@@ -72,7 +72,6 @@
 
 <!-- WATCHING:START -->
 <table>
-<tbody>
 <tr>
 <th colspan="2" align="left"><img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">🌐 网络与代理</th>
 </tr>
@@ -112,10 +111,11 @@
 <sub>支持主流服务商的 DDNS</sub>
 </td>
 </tr>
-</tbody>
-<tbody>
+</table>
+<br>
+<table>
 <tr>
-<th colspan="2" align="left">📈 监控与可观测</th>
+<th colspan="2" align="left"><img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">📈 监控与可观测</th>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -153,10 +153,11 @@
 <sub>轻量服务器监控与告警</sub>
 </td>
 </tr>
-</tbody>
-<tbody>
+</table>
+<br>
+<table>
 <tr>
-<th colspan="2" align="left">🐳 云原生与镜像仓库</th>
+<th colspan="2" align="left"><img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">🐳 云原生与镜像仓库</th>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -194,10 +195,11 @@
 <sub>开源的基础设施即代码</sub>
 </td>
 </tr>
-</tbody>
-<tbody>
+</table>
+<br>
+<table>
 <tr>
-<th colspan="2" align="left">🔐 证书与 PKI</th>
+<th colspan="2" align="left"><img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">🔐 证书与 PKI</th>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -223,10 +225,11 @@
 <sub>Cloudflare 的 PKI 工具包</sub>
 </td>
 </tr>
-</tbody>
-<tbody>
+</table>
+<br>
+<table>
 <tr>
-<th colspan="2" align="left">🗂 文件与自托管</th>
+<th colspan="2" align="left"><img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">🗂 文件与自托管</th>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -252,10 +255,11 @@
 <sub>Docker 与 GitHub 加速代理</sub>
 </td>
 </tr>
-</tbody>
-<tbody>
+</table>
+<br>
+<table>
 <tr>
-<th colspan="2" align="left">🍎 macOS 与装机</th>
+<th colspan="2" align="left"><img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">🍎 macOS 与装机</th>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -281,7 +285,6 @@
 <sub>多系统启动 U 盘方案</sub>
 </td>
 </tr>
-</tbody>
 </table>
 <!-- WATCHING:END -->
 

@@ -138,8 +138,9 @@ def render_mine(items):
 
 
 def render_watching(groups):
-    # 一张两列表格：每个分组一个 tbody，标题行横跨两列，下面每行两个项目，保证全表对齐
-    bodies = []
+    # 每个分组一张两列表格：标题行横跨两列，下面每行两个项目；每张表都用占位图撑满整栏，
+    # 列宽一致所以上下仍然对齐，表与表之间空一行把分组隔开
+    tables = []
     for g in groups:
         cells = []
         for repo, desc, *display in g["repos"]:
@@ -157,11 +158,10 @@ def render_watching(groups):
             )
         if len(cells) % 2:
             cells.append('<td width="50%"></td>')
-        spacer = SPACER if not bodies else ""
-        rows = [f'<tr>\n<th colspan="2" align="left">{spacer}{g["name"]}</th>\n</tr>']
+        rows = [f'<tr>\n<th colspan="2" align="left">{SPACER}{g["name"]}</th>\n</tr>']
         rows += ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
-        bodies.append("<tbody>\n" + "\n".join(rows) + "\n</tbody>")
-    return "<table>\n" + "\n".join(bodies) + "\n</table>"
+        tables.append("<table>\n" + "\n".join(rows) + "\n</table>")
+    return "\n<br>\n".join(tables)
 
 
 def replace(text, key, body):
