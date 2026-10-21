@@ -21,6 +21,7 @@ STACK = {
     "vue": "https://img.shields.io/badge/Vue_3-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D",
     "ts": "https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white",
     "swift": "https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white",
+    "kotlin": "https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white",
 }
 
 # 1px 透明占位图把表格撑满整栏（GitHub 的表格默认按内容收缩宽度）
@@ -69,16 +70,18 @@ def render_mine(items):
             badges.append(
                 f'<a href="https://github.com/{repo}/releases"><img src="https://img.shields.io/badge/release-{label}-1a7f37?style=flat-square" alt="{tag}"></a>'
             )
-        # logo 是 44x104 的高图（logo 垂直居中），占住左侧整列，简介折行也会对齐在右边
+        # logo 是 44x96 的高图（logo 贴顶，与标题平齐），占住左侧整列，简介折行也会对齐在右边
         cells.append(
             f'<td width="50%" valign="top">\n'
             + (SPACER + "\n" if not cells else "")
-            + f'<img src="{p["logo"]}" width="44" height="104" align="left" alt="">\n'
+            + f'<img src="{p["logo"]}" width="44" height="96" align="left" alt="">\n'
             f'<a href="https://github.com/{repo}"><b>{p["title"]}</b></a><br>\n'
-            f'<sub>{p["desc"]}</sub><br>\n'
             + "\n".join(badges)
-            + "\n</td>"
+            + f'<br>\n<sub>{p["desc"]}</sub>\n'
+            "</td>"
         )
+    if len(cells) % 2:
+        cells.append('<td width="50%"></td>')
     rows = ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
     return "<table>\n" + "\n".join(rows) + "\n</table>"
 

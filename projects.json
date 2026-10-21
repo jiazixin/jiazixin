@@ -27,6 +27,13 @@
       "logo": "assets/logos/navi.svg",
       "desc": "个人导航起始页：一个 YAML 文件、一个二进制",
       "stack": ["go", "react"]
+    },
+    {
+      "repo": "jiazixin/vvideo",
+      "title": "VVideo",
+      "logo": "assets/logos/vvideo.svg",
+      "desc": "自托管 NAS 照片视频库，配原生安卓应用浏览播放",
+      "stack": ["go", "kotlin"]
     }
   ],
   "watching": [
