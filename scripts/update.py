@@ -67,16 +67,15 @@ def render_mine(items):
                 f'<a href="https://github.com/{repo}/releases"><img src="https://img.shields.io/badge/release-{label}-1a7f37?style=flat-square" alt="{tag}"></a>'
             )
         cells.append(
-            f'<td width="50%" valign="top">\n'
-            f'<img src="{p["logo"]}" width="40" align="left" alt="">\n'
+            f'<tr>\n<td width="64" align="center" valign="middle">\n'
+            f'<img src="{p["logo"]}" width="44" alt="">\n'
+            f"</td>\n<td>\n"
             f'<a href="https://github.com/{repo}"><b>{p["title"]}</b></a><br>\n'
-            f'<sub>{p["desc"]}</sub>\n'
-            f'<br clear="left"><br>\n'
+            f'{p["desc"]}<br>\n'
             + "\n".join(badges)
-            + "\n</td>"
+            + "\n</td>\n</tr>"
         )
-    rows = ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
-    return "<table>\n" + "\n".join(rows) + "\n</table>"
+    return "<table>\n" + "\n".join(cells) + "\n</table>"
 
 
 def render_watching(groups):
