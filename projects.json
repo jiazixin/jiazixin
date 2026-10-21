@@ -1,0 +1,106 @@
+{
+  "mine": [
+    {
+      "repo": "jiazixin/harbor-console",
+      "title": "Harbor Console",
+      "logo": "https://raw.githubusercontent.com/jiazixin/harbor-console/main/web/public/favicon.svg",
+      "desc": "Harbor v2.15 一体化管理控制台，凭据只留在服务端，适合纯内网",
+      "stack": ["go", "react"]
+    },
+    {
+      "repo": "jiazixin/mirrordock",
+      "title": "MirrorDock · 源仓",
+      "logo": "https://raw.githubusercontent.com/jiazixin/mirrordock/main/web/src/assets/logo.svg",
+      "desc": "软件源同步与镜像服务：rsync / DNF / GitHub Release 同步后直接对外下载",
+      "stack": ["go", "vue"]
+    },
+    {
+      "repo": "jiazixin/video-rename",
+      "title": "video-rename · 视频命名工作台",
+      "logo": "https://raw.githubusercontent.com/jiazixin/video-rename/main/web/public/logo.png",
+      "desc": "浏览器里浏览、播放、批量改名媒体文件，可用视觉模型按截图生成中文文件名",
+      "stack": ["go", "vue"]
+    },
+    {
+      "repo": "jiazixin/navi",
+      "title": "Navi",
+      "logo": "assets/navi.svg",
+      "desc": "只读的个人导航起始页：一个 YAML 文件、一个二进制，内外网地址自动切换",
+      "stack": ["go", "react"]
+    }
+  ],
+  "watching": [
+    {
+      "name": "🌐 网络与代理",
+      "col": 0,
+      "repos": [
+        ["fatedier/frp", "内网穿透，把 NAT 后的服务暴露到公网"],
+        ["SagerNet/sing-box", "通用代理平台"],
+        ["mihomo-party-org/clash-party", "基于 Mihomo 内核的桌面客户端"],
+        ["MetaCubeX/ClashMetaForAndroid", "Android 规则代理客户端"],
+        ["caddyserver/caddy", "自动 HTTPS 的 Web 服务器与反向代理"],
+        ["jeessy2/ddns-go", "简单好用的 DDNS，支持主流服务商"],
+        ["sky22333/hubproxy", "Docker 镜像与 GitHub 加速代理"]
+      ]
+    },
+    {
+      "name": "📈 监控与可观测",
+      "col": 1,
+      "repos": [
+        ["prometheus/prometheus", "监控系统与时序数据库"],
+        ["prometheus/node_exporter", "主机指标采集器"],
+        ["google/cadvisor", "容器资源使用与性能分析"],
+        ["grafana/loki", "日志聚合，“日志界的 Prometheus”"],
+        ["grafana/alloy", "可编程管道的 OTel Collector"],
+        ["henrygd/beszel", "轻量服务器监控，带历史数据与告警"]
+      ]
+    },
+    {
+      "name": "🐳 镜像仓库与制品",
+      "col": 1,
+      "repos": [
+        ["goharbor/harbor", "CNCF 毕业的云原生镜像仓库"],
+        ["goharbor/harbor-cli", "Harbor 官方命令行"],
+        ["project-zot/zot", "纯 OCI 原生的镜像仓库"],
+        ["regclient/regclient", "Docker / OCI 仓库客户端与 regctl"]
+      ]
+    },
+    {
+      "name": "🔐 证书与 PKI",
+      "col": 0,
+      "repos": [
+        ["go-acme/lego", "Go 实现的 Let's Encrypt / ACME 客户端"],
+        ["smallstep/certificates", "私有 CA（X.509 / SSH）与 ACME"],
+        ["smallstep/cli", "X.509 / JWT / OAuth / OTP 瑞士军刀"],
+        ["cloudflare/cfssl", "Cloudflare 的 PKI / TLS 工具包"]
+      ]
+    },
+    {
+      "name": "🗂 文件、NAS 与导航",
+      "col": 0,
+      "repos": [
+        ["OpenListTeam/OpenList", "AList 社区分支，多存储文件列表"],
+        ["sigoden/dufs", "支持上传、搜索、WebDAV 的文件服务"],
+        ["hslr-s/sun-panel", "服务器 / NAS 导航面板"]
+      ]
+    },
+    {
+      "name": "☁️ 基础设施",
+      "col": 1,
+      "repos": [
+        ["etcd-io/etcd", "分布式系统的可靠键值存储"],
+        ["opentofu/opentofu", "开源的基础设施即代码工具"]
+      ]
+    },
+    {
+      "name": "🍎 macOS 与装机",
+      "col": 1,
+      "repos": [
+        ["iina/iina", "macOS 上的现代视频播放器"],
+        ["ninxsoft/Mist", "自动下载 macOS 固件与安装器"],
+        ["Nongfsq/ftop", "Apple Silicon 上安静的悬浮系统监控"],
+        ["ventoy/Ventoy", "一个 U 盘装多个系统镜像"]
+      ]
+    }
+  ]
+}
