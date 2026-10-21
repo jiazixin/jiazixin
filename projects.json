@@ -5,7 +5,8 @@
       "title": "Harbor Console",
       "logo": "assets/logos/harbor-console.svg",
       "desc": "Harbor v2.15 一体化管理控制台，凭据只留服务端",
-      "stack": ["go", "react"]
+      "stack": ["go", "react"],
+      "featured": true
     },
     {
       "repo": "jiazixin/mirrordock",

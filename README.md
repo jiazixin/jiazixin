@@ -14,56 +14,13 @@
 ## 📦 我的项目
 
 <!-- MINE:START -->
-<table>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/spacer.svg" width="2000" height="1" align="right" alt="">
-<img src="assets/logos/harbor-console.svg" width="44" height="96" align="left" alt="">
-<a href="https://github.com/jiazixin/harbor-console"><b>Harbor Console</b></a><br>
-<img src="assets/badges/go.svg" height="18" alt="Go">
-<img src="assets/badges/react.svg" height="18" alt="React">
-<a href="https://github.com/jiazixin/harbor-console/releases"><img src="assets/badges/release-harbor-console.svg" height="18" alt="v1.0.0"></a><br>
-<sub>Harbor v2.15 一体化管理控制台，凭据只留服务端</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/logos/mirrordock.svg" width="44" height="96" align="left" alt="">
-<a href="https://github.com/jiazixin/mirrordock"><b>MirrorDock · 源仓</b></a><br>
-<img src="assets/badges/go.svg" height="18" alt="Go">
-<img src="assets/badges/vue.svg" height="18" alt="Vue 3">
-<a href="https://github.com/jiazixin/mirrordock/releases"><img src="assets/badges/release-mirrordock.svg" height="18" alt="v1.0.1"></a><br>
-<sub>软件源镜像服务：同步 rsync / DNF / GitHub Release</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/logos/video-rename.svg" width="44" height="96" align="left" alt="">
-<a href="https://github.com/jiazixin/video-rename"><b>video-rename · 视频命名</b></a><br>
-<img src="assets/badges/go.svg" height="18" alt="Go">
-<img src="assets/badges/vue.svg" height="18" alt="Vue 3">
-<a href="https://github.com/jiazixin/video-rename/releases"><img src="assets/badges/release-video-rename.svg" height="18" alt="v1.1.1"></a><br>
-<sub>在浏览器里整理媒体文件，视觉模型按截图自动起名</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/logos/navi.svg" width="44" height="96" align="left" alt="">
-<a href="https://github.com/jiazixin/navi"><b>Navi</b></a><br>
-<img src="assets/badges/go.svg" height="18" alt="Go">
-<img src="assets/badges/react.svg" height="18" alt="React">
-<a href="https://github.com/jiazixin/navi/releases"><img src="assets/badges/release-navi.svg" height="18" alt="v1.0.1"></a><br>
-<sub>个人导航起始页：一个 YAML 文件、一个二进制</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/logos/vvideo.svg" width="44" height="96" align="left" alt="">
-<a href="https://github.com/jiazixin/vvideo"><b>VVideo</b></a><br>
-<img src="assets/badges/go.svg" height="18" alt="Go">
-<img src="assets/badges/kotlin.svg" height="18" alt="Kotlin">
-<a href="https://github.com/jiazixin/vvideo/releases"><img src="assets/badges/release-vvideo.svg" height="18" alt="v0.1.0-rc.1"></a><br>
-<sub>自托管 NAS 照片视频库，配原生安卓应用浏览播放</sub>
-</td>
-<td width="50%"></td>
-</tr>
-</table>
+<p align="center">
+<a href="https://github.com/jiazixin/harbor-console"><img src="assets/cards/harbor-console.svg" width="98.6%" alt="Harbor Console — Harbor v2.15 一体化管理控制台，凭据只留服务端"></a>
+<a href="https://github.com/jiazixin/mirrordock"><img src="assets/cards/mirrordock.svg" width="49%" alt="MirrorDock · 源仓 — 软件源镜像服务：同步 rsync / DNF / GitHub Release"></a>
+<a href="https://github.com/jiazixin/video-rename"><img src="assets/cards/video-rename.svg" width="49%" alt="video-rename · 视频命名 — 在浏览器里整理媒体文件，视觉模型按截图自动起名"></a>
+<a href="https://github.com/jiazixin/navi"><img src="assets/cards/navi.svg" width="49%" alt="Navi — 个人导航起始页：一个 YAML 文件、一个二进制"></a>
+<a href="https://github.com/jiazixin/vvideo"><img src="assets/cards/vvideo.svg" width="49%" alt="VVideo — 自托管 NAS 照片视频库，配原生安卓应用浏览播放"></a>
+</p>
 <!-- MINE:END -->
 
 ## 🔭 我在关注的开源项目
