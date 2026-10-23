@@ -25,7 +25,7 @@
 
 ## 🔭 我在关注的开源项目
 
-<sub>日常在用或在读源码的项目，按方向分组 · Star 数每周由 GitHub Actions 自动刷新</sub>
+<sub>日常在用或在读源码的项目，按方向分组 · Star 数和最新版本每周由 GitHub Actions 自动刷新，<b>绿色</b>版本号是最近一周发布的</sub>
 
 <!-- WATCHING:START -->
 <table>
@@ -34,11 +34,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/fatedier/frp/releases/latest"><img src="assets/releases/fatedier-frp.svg" width="78" height="20" align="right" alt="v0.71.1"></a>
 <img src="https://github.com/fatedier.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/fatedier/frp"><b>frp</b></a>&nbsp;&nbsp;<sub>★&nbsp;110k</sub><br>
 <sub>内网穿透，暴露 NAT 后的服务</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/SagerNet/sing-box/releases/latest"><img src="assets/releases/sagernet-sing-box.svg" width="78" height="20" align="right" alt="v1.14.3"></a>
 <img src="https://github.com/SagerNet.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/SagerNet/sing-box"><b>sing-box</b></a>&nbsp;&nbsp;<sub>★&nbsp;39k</sub><br>
 <sub>通用代理平台</sub>
@@ -46,11 +48,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/mihomo-party-org/clash-party/releases/latest"><img src="assets/releases/mihomo-party-org-clash-party.svg" width="71" height="20" align="right" alt="v2.0.4"></a>
 <img src="https://github.com/mihomo-party-org.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/mihomo-party-org/clash-party"><b>clash-party</b></a>&nbsp;&nbsp;<sub>★&nbsp;27k</sub><br>
 <sub>Mihomo 内核的桌面客户端</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest"><img src="assets/releases/metacubex-clashmetaforandroid.svg" width="85" height="20" align="right" alt="v2.11.36"></a>
 <img src="https://github.com/MetaCubeX.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid"><b>ClashMeta Android</b></a>&nbsp;&nbsp;<sub>★&nbsp;48k</sub><br>
 <sub>Android 规则代理客户端</sub>
@@ -58,11 +62,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/caddyserver/caddy/releases/latest"><img src="assets/releases/caddyserver-caddy.svg" width="78" height="20" align="right" alt="v2.11.7"></a>
 <img src="https://github.com/caddyserver.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/caddyserver/caddy"><b>caddy</b></a>&nbsp;&nbsp;<sub>★&nbsp;78k</sub><br>
 <sub>自动 HTTPS 的 Web 服务器</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.7"></a>
 <img src="https://github.com/jeessy2.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/jeessy2/ddns-go"><b>ddns-go</b></a>&nbsp;&nbsp;<sub>★&nbsp;17k</sub><br>
 <sub>支持主流服务商的 DDNS</sub>
@@ -76,11 +82,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/prometheus/prometheus/releases/latest"><img src="assets/releases/prometheus-prometheus.svg" width="78" height="20" align="right" alt="v3.15.1"></a>
 <img src="https://github.com/prometheus.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/prometheus/prometheus"><b>prometheus</b></a>&nbsp;&nbsp;<sub>★&nbsp;67k</sub><br>
 <sub>监控系统与时序数据库</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/prometheus/node_exporter/releases/latest"><img src="assets/releases/prometheus-node_exporter.svg" width="78" height="20" align="right" alt="v1.12.1"></a>
 <img src="https://github.com/prometheus.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/prometheus/node_exporter"><b>node_exporter</b></a>&nbsp;&nbsp;<sub>★&nbsp;14k</sub><br>
 <sub>主机指标采集器</sub>
@@ -88,11 +96,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/google/cadvisor/releases/latest"><img src="assets/releases/google-cadvisor.svg" width="78" height="20" align="right" alt="v0.60.6"></a>
 <img src="https://github.com/google.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/google/cadvisor"><b>cadvisor</b></a>&nbsp;&nbsp;<sub>★&nbsp;19k</sub><br>
 <sub>容器资源与性能分析</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/grafana/loki/releases/latest"><img src="assets/releases/grafana-loki.svg" width="71" height="20" align="right" alt="v3.7.9"></a>
 <img src="https://github.com/grafana.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/grafana/loki"><b>loki</b></a>&nbsp;&nbsp;<sub>★&nbsp;29k</sub><br>
 <sub>日志聚合系统</sub>
@@ -100,11 +110,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/grafana/alloy/releases/latest"><img src="assets/releases/grafana-alloy.svg" width="78" height="20" align="right" alt="v1.21.2"></a>
 <img src="https://github.com/grafana.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/grafana/alloy"><b>alloy</b></a>&nbsp;&nbsp;<sub>★&nbsp;3.6k</sub><br>
 <sub>OTel Collector 发行版</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/henrygd/beszel/releases/latest"><img src="assets/releases/henrygd-beszel.svg" width="78" height="20" align="right" alt="v0.21.1"></a>
 <img src="https://github.com/henrygd.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/henrygd/beszel"><b>beszel</b></a>&nbsp;&nbsp;<sub>★&nbsp;26k</sub><br>
 <sub>轻量服务器监控与告警</sub>
@@ -118,23 +130,27 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/goharbor/harbor/releases/latest"><img src="assets/releases/goharbor-harbor.svg" width="78" height="20" align="right" alt="v2.14.6"></a>
 <img src="https://github.com/goharbor.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/goharbor/harbor"><b>harbor</b></a>&nbsp;&nbsp;<sub>★&nbsp;30k</sub><br>
 <sub>云原生镜像仓库</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/goharbor/harbor-cli/releases/latest"><img src="assets/releases/goharbor-harbor-cli.svg" width="78" height="20" align="right" alt="v0.0.27"></a>
 <img src="https://github.com/goharbor.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/goharbor/harbor-cli"><b>harbor-cli</b></a>&nbsp;&nbsp;<sub>★&nbsp;165</sub><br>
+<a href="https://github.com/goharbor/harbor-cli"><b>harbor-cli</b></a>&nbsp;&nbsp;<sub>★&nbsp;166</sub><br>
 <sub>Harbor 官方命令行</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/project-zot/zot/releases/latest"><img src="assets/releases/project-zot-zot.svg" width="78" height="20" align="right" alt="v2.1.22"></a>
 <img src="https://github.com/project-zot.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/project-zot/zot"><b>zot</b></a>&nbsp;&nbsp;<sub>★&nbsp;2.9k</sub><br>
 <sub>OCI 原生镜像仓库</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/regclient/regclient/releases/latest"><img src="assets/releases/regclient-regclient.svg" width="78" height="20" align="right" alt="v0.11.7"></a>
 <img src="https://github.com/regclient.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/regclient/regclient"><b>regclient</b></a>&nbsp;&nbsp;<sub>★&nbsp;2k</sub><br>
 <sub>OCI 仓库客户端与 regctl</sub>
@@ -142,11 +158,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/etcd-io/etcd/releases/latest"><img src="assets/releases/etcd-io-etcd.svg" width="71" height="20" align="right" alt="v3.7.3"></a>
 <img src="https://github.com/etcd-io.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/etcd-io/etcd"><b>etcd</b></a>&nbsp;&nbsp;<sub>★&nbsp;52k</sub><br>
 <sub>分布式可靠键值存储</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="78" height="20" align="right" alt="v1.13.2"></a>
 <img src="https://github.com/opentofu.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/opentofu/opentofu"><b>opentofu</b></a>&nbsp;&nbsp;<sub>★&nbsp;31k</sub><br>
 <sub>开源的基础设施即代码</sub>
@@ -160,11 +178,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/go-acme/lego/releases/latest"><img src="assets/releases/go-acme-lego.svg" width="71" height="20" align="right" alt="v5.5.2"></a>
 <img src="https://github.com/go-acme.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/go-acme/lego"><b>lego</b></a>&nbsp;&nbsp;<sub>★&nbsp;10k</sub><br>
 <sub>Let's Encrypt / ACME 客户端</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/smallstep/certificates/releases/latest"><img src="assets/releases/smallstep-certificates.svg" width="78" height="20" align="right" alt="v0.30.2"></a>
 <img src="https://github.com/smallstep.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/smallstep/certificates"><b>certificates</b></a>&nbsp;&nbsp;<sub>★&nbsp;9k</sub><br>
 <sub>私有 CA 与 ACME 服务</sub>
@@ -172,11 +192,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/smallstep/cli/releases/latest"><img src="assets/releases/smallstep-cli.svg" width="78" height="20" align="right" alt="v0.31.0"></a>
 <img src="https://github.com/smallstep.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/smallstep/cli"><b>step cli</b></a>&nbsp;&nbsp;<sub>★&nbsp;4.4k</sub><br>
 <sub>X.509 / JWT 瑞士军刀</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/cloudflare/cfssl/releases/latest"><img src="assets/releases/cloudflare-cfssl.svg" width="71" height="20" align="right" alt="v1.7.1"></a>
 <img src="https://github.com/cloudflare.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/cloudflare/cfssl"><b>cfssl</b></a>&nbsp;&nbsp;<sub>★&nbsp;9.5k</sub><br>
 <sub>Cloudflare 的 PKI 工具包</sub>
@@ -190,11 +212,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/OpenListTeam/OpenList/releases/latest"><img src="assets/releases/openlistteam-openlist.svg" width="71" height="20" align="right" alt="v4.2.7"></a>
 <img src="https://github.com/OpenListTeam.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/OpenListTeam/OpenList"><b>OpenList</b></a>&nbsp;&nbsp;<sub>★&nbsp;25k</sub><br>
 <sub>多存储聚合的文件列表</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/sigoden/dufs/releases/latest"><img src="assets/releases/sigoden-dufs.svg" width="78" height="20" align="right" alt="v0.47.0"></a>
 <img src="https://github.com/sigoden.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/sigoden/dufs"><b>dufs</b></a>&nbsp;&nbsp;<sub>★&nbsp;11k</sub><br>
 <sub>支持 WebDAV 的文件服务器</sub>
@@ -202,13 +226,15 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/hslr-s/sun-panel/releases/latest"><img src="assets/releases/hslr-s-sun-panel.svg" width="71" height="20" align="right" alt="v1.8.1"></a>
 <img src="https://github.com/hslr-s.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/hslr-s/sun-panel"><b>sun-panel</b></a>&nbsp;&nbsp;<sub>★&nbsp;5.3k</sub><br>
+<a href="https://github.com/hslr-s/sun-panel"><b>sun-panel</b></a>&nbsp;&nbsp;<sub>★&nbsp;5.4k</sub><br>
 <sub>服务器 / NAS 导航面板</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/sky22333/hubproxy/releases/latest"><img src="assets/releases/sky22333-hubproxy.svg" width="71" height="20" align="right" alt="v1.2.5"></a>
 <img src="https://github.com/sky22333.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/sky22333/hubproxy"><b>hubproxy</b></a>&nbsp;&nbsp;<sub>★&nbsp;2.9k</sub><br>
+<a href="https://github.com/sky22333/hubproxy"><b>hubproxy</b></a>&nbsp;&nbsp;<sub>★&nbsp;3k</sub><br>
 <sub>Docker 与 GitHub 加速代理</sub>
 </td>
 </tr>
@@ -220,11 +246,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/iina/iina/releases/latest"><img src="assets/releases/iina-iina.svg" width="71" height="20" align="right" alt="v1.5.0"></a>
 <img src="https://github.com/iina.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/iina/iina"><b>IINA</b></a>&nbsp;&nbsp;<sub>★&nbsp;47k</sub><br>
 <sub>macOS 现代视频播放器</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/ninxsoft/Mist/releases/latest"><img src="assets/releases/ninxsoft-mist.svg" width="64" height="20" align="right" alt="v0.40"></a>
 <img src="https://github.com/ninxsoft.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/ninxsoft/Mist"><b>Mist</b></a>&nbsp;&nbsp;<sub>★&nbsp;5.3k</sub><br>
 <sub>下载 macOS 固件与安装器</sub>
@@ -232,11 +260,13 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.7"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;337</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;347</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/ventoy/Ventoy/releases/latest"><img src="assets/releases/ventoy-ventoy.svg" width="78" height="20" align="right" alt="v1.1.18"></a>
 <img src="https://github.com/ventoy.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/ventoy/Ventoy"><b>Ventoy</b></a>&nbsp;&nbsp;<sub>★&nbsp;80k</sub><br>
 <sub>多系统启动 U 盘方案</sub>

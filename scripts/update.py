@@ -10,6 +10,7 @@ import os
 import re
 import subprocess
 import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,6 +28,7 @@ STACK = {
 }
 
 CARDS = ROOT / "assets" / "cards"
+RELEASES = ROOT / "assets" / "releases"
 # 卡片配色跟 banner.svg 一样写在 SVG 里，按 prefers-color-scheme 切换；取 GitHub Primer 的明暗色
 PALETTE = {
     "light": dict(card="#f6f8fa", edge="#d1d9e0", mute="#59636e", ok="#1a7f37", line="#0969da"),
@@ -85,14 +87,14 @@ def wrap(s, size, width, max_lines=2):
     return lines
 
 
-def svg_doc(w, h, label, body):
+def svg_doc(w, h, label, body, extra_css=""):
     css = lambda p: ";".join(f"--{k}:{v}" for k, v in p.items())
     style = (
         f":root{{{css(PALETTE['light'])}}}@media (prefers-color-scheme:dark){{:root{{{css(PALETTE['dark'])}}}}}"
         ".card{fill:var(--card);stroke:var(--edge)}.mute{fill:var(--mute)}.ok{fill:var(--ok)}.lnk{fill:var(--line)}"
         ".pill{fill:var(--ok);fill-opacity:.12;stroke:var(--ok);stroke-opacity:.45}"
         ".contour{fill:none;stroke:var(--line);stroke-width:1.2;opacity:.16}"
-        f".s{{font-family:{SANS}}}.m{{font-family:{MONO}}}"
+        f".s{{font-family:{SANS}}}.m{{font-family:{MONO}}}{extra_css}"
     )
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
@@ -116,15 +118,25 @@ def stack_row(stack, x, y, size=12):
     return "".join(out)
 
 
-def tag_mark(tag, x, y, size=12, anchor="start"):
+def tag_mark(tag, x, y, size=12, anchor="start", cls="ok"):
     """版本号前面带一个 tag 图标；anchor=end 时 x 是右端。"""
     if not tag:
         return ""
     x0 = x - 14 - text_w(tag, size, True) if anchor == "end" else x
     return (
-        f'<path class="ok" transform="translate({x0:.1f} {y - size * 0.84:.1f}) scale({size / 16 * 0.85:.3f})" d="{TAG_ICON}"/>'
-        f'<text class="m ok" x="{x0 + 14:.1f}" y="{y}" font-size="{size}">{html.escape(tag)}</text>'
+        f'<path class="{cls}" transform="translate({x0:.1f} {y - size * 0.84:.1f}) scale({size / 16 * 0.85:.3f})" d="{TAG_ICON}"/>'
+        f'<text class="m {cls}" x="{x0 + 14:.1f}" y="{y}" font-size="{size}">{html.escape(tag)}</text>'
     )
+
+
+def release_chip(tag, fresh):
+    """关注项目右上角的版本胶囊：一周内发的新版用绿色（和我的项目同款），其余是中性灰。"""
+    w, h = round(8 + 14 + text_w(tag, 11, True) + 8), 20
+    body = (
+        f'<rect class="{"pill" if fresh else "chip"}" x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="{(h - 1) / 2}"/>'
+        + tag_mark(tag, 8, 14, 11, cls="ok" if fresh else "mute")
+    )
+    return svg_doc(w, h, f"最新版本 {tag}", body, ".chip{fill:var(--card);stroke:var(--edge)}"), w, h
 
 
 def card_wide(p, tag):
@@ -240,8 +252,11 @@ def render_mine(items):
 
 def render_watching(groups):
     # 每个分组一张两列表格：标题行横跨两列，下面每行两个项目；每张表都用占位图撑满整栏，
-    # 列宽一致所以上下仍然对齐，表与表之间空一行把分组隔开
-    tables = []
+    # 列宽一致所以上下仍然对齐，表与表之间空一行把分组隔开。
+    # 最新版本画成小胶囊靠右浮在格子右上角，跟半宽卡片的版本号位置一致，上下也排成一列
+    RELEASES.mkdir(parents=True, exist_ok=True)
+    written, tables = set(), []
+    now = datetime.now(timezone.utc)
     for g in groups:
         cells = []
         for repo, desc, *display in g["repos"]:
@@ -250,8 +265,23 @@ def render_watching(groups):
                 stars = "★&nbsp;" + fmt_stars(api(f"repos/{repo}")["stargazers_count"])
             except Exception:
                 stars = ""
+            chip = ""
+            try:
+                rel = api(f"repos/{repo}/releases/latest")
+                fresh = now - datetime.fromisoformat(rel["published_at"].replace("Z", "+00:00")) <= timedelta(days=7)
+                svg, w, h = release_chip(rel["tag_name"], fresh)
+                fname = f"{owner}-{name}.svg".lower()
+                (RELEASES / fname).write_text(svg, encoding="utf-8")
+                written.add(fname)
+                chip = (
+                    f'<a href="https://github.com/{repo}/releases/latest"><img src="assets/releases/{fname}" '
+                    f'width="{w}" height="{h}" align="right" alt="{html.escape(rel["tag_name"], quote=True)}"></a>\n'
+                )
+            except Exception:
+                pass
             cells.append(
                 f'<td width="50%" valign="top">\n'
+                f"{chip}"
                 f'<img src="https://github.com/{owner}.png?size=64" width="32" height="32" align="left" alt="">\n'
                 f'<a href="https://github.com/{repo}"><b>{display[0] if display else name}</b></a>&nbsp;&nbsp;<sub>{stars}</sub><br>\n'
                 f"<sub>{desc}</sub>\n"
@@ -262,6 +292,9 @@ def render_watching(groups):
         rows = [f'<tr>\n<th colspan="2" align="left">{SPACER}{g["name"]}</th>\n</tr>']
         rows += ["<tr>\n" + "\n".join(cells[i : i + 2]) + "\n</tr>" for i in range(0, len(cells), 2)]
         tables.append("<table>\n" + "\n".join(rows) + "\n</table>")
+    for old in RELEASES.glob("*.svg"):
+        if old.name not in written:
+            old.unlink()
     return "\n<br>\n".join(tables)
 
 
