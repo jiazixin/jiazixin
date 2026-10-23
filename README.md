@@ -25,7 +25,7 @@
 
 ## 🔭 我在关注的开源项目
 
-<sub>日常在用或在读源码的项目，按方向分组 · Star 数和最新版本每周由 GitHub Actions 自动刷新，<b>绿色</b>版本号是最近一周发布的</sub>
+<sub>日常在用或在读源码的项目，按方向分组 · Star 数和最新版本每 6 小时由 GitHub Actions 自动刷新，<b>绿色</b>版本号是最近一周发布的</sub>
 
 <!-- WATCHING:START -->
 <table>

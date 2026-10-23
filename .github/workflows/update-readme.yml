@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 1 * * 1" # 每周一 09:00（北京时间）
+    - cron: "17 */6 * * *" # 每 6 小时（北京时间 02/08/14/20 点 17 分），避开整点排队
   push:
     branches: [main]
     paths: [projects.json, scripts/update.py]
@@ -10,6 +10,11 @@ on:
 
 permissions:
   contents: write
+
+# 同一时间只跑一个，后来的排队等前一个提交完
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -29,4 +34,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: refresh README stats"
+          # 运行期间如果有人推了新提交，先接到最新的 main 上再推
+          git pull --rebase origin main
           git push
