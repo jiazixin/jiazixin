@@ -118,7 +118,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/henrygd/beszel/releases/latest"><img src="assets/releases/henrygd-beszel.svg" width="78" height="20" align="right" alt="v0.21.1"></a>
 <img src="https://github.com/henrygd.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/henrygd/beszel"><b>beszel</b></a>&nbsp;&nbsp;<sub>★&nbsp;26k</sub><br>
+<a href="https://github.com/henrygd/beszel"><b>beszel</b></a>&nbsp;&nbsp;<sub>★&nbsp;27k</sub><br>
 <sub>轻量服务器监控与告警</sub>
 </td>
 </tr>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.7"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;352</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;354</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
