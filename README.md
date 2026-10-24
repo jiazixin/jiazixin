@@ -40,7 +40,7 @@
 <sub>内网穿透，暴露 NAT 后的服务</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/SagerNet/sing-box/releases/latest"><img src="assets/releases/sagernet-sing-box.svg" width="78" height="20" align="right" alt="v1.14.3"></a>
+<a href="https://github.com/SagerNet/sing-box/releases/latest"><img src="assets/releases/sagernet-sing-box.svg" width="78" height="20" align="right" alt="v1.14.4"></a>
 <img src="https://github.com/SagerNet.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/SagerNet/sing-box"><b>sing-box</b></a>&nbsp;&nbsp;<sub>★&nbsp;39k</sub><br>
 <sub>通用代理平台</sub>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.7"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;348</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;349</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
