@@ -56,7 +56,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest"><img src="assets/releases/metacubex-clashmetaforandroid.svg" width="85" height="20" align="right" alt="v2.11.36"></a>
 <img src="https://github.com/MetaCubeX.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/MetaCubeX/ClashMetaForAndroid"><b>ClashMeta Android</b></a>&nbsp;&nbsp;<sub>★&nbsp;48k</sub><br>
+<a href="https://github.com/MetaCubeX/ClashMetaForAndroid"><b>ClashMeta Android</b></a>&nbsp;&nbsp;<sub>★&nbsp;49k</sub><br>
 <sub>Android 规则代理客户端</sub>
 </td>
 </tr>
@@ -64,7 +64,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/caddyserver/caddy/releases/latest"><img src="assets/releases/caddyserver-caddy.svg" width="78" height="20" align="right" alt="v2.11.7"></a>
 <img src="https://github.com/caddyserver.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/caddyserver/caddy"><b>caddy</b></a>&nbsp;&nbsp;<sub>★&nbsp;78k</sub><br>
+<a href="https://github.com/caddyserver/caddy"><b>caddy</b></a>&nbsp;&nbsp;<sub>★&nbsp;79k</sub><br>
 <sub>自动 HTTPS 的 Web 服务器</sub>
 </td>
 <td width="50%" valign="top">
