@@ -112,7 +112,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/grafana/alloy/releases/latest"><img src="assets/releases/grafana-alloy.svg" width="78" height="20" align="right" alt="v1.21.3"></a>
 <img src="https://github.com/grafana.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/grafana/alloy"><b>alloy</b></a>&nbsp;&nbsp;<sub>★&nbsp;3.6k</sub><br>
+<a href="https://github.com/grafana/alloy"><b>alloy</b></a>&nbsp;&nbsp;<sub>★&nbsp;3.7k</sub><br>
 <sub>OTel Collector 发行版</sub>
 </td>
 <td width="50%" valign="top">
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.7"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;373</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;374</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
