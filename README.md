@@ -70,7 +70,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.7"></a>
 <img src="https://github.com/jeessy2.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/jeessy2/ddns-go"><b>ddns-go</b></a>&nbsp;&nbsp;<sub>★&nbsp;17k</sub><br>
+<a href="https://github.com/jeessy2/ddns-go"><b>ddns-go</b></a>&nbsp;&nbsp;<sub>★&nbsp;18k</sub><br>
 <sub>支持主流服务商的 DDNS</sub>
 </td>
 </tr>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.7"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;377</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;378</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
