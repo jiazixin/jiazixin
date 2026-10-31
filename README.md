@@ -260,15 +260,15 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.7"></a>
+<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.8"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;385</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;387</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/ventoy/Ventoy/releases/latest"><img src="assets/releases/ventoy-ventoy.svg" width="78" height="20" align="right" alt="v1.1.18"></a>
 <img src="https://github.com/ventoy.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/ventoy/Ventoy"><b>Ventoy</b></a>&nbsp;&nbsp;<sub>★&nbsp;80k</sub><br>
+<a href="https://github.com/ventoy/Ventoy"><b>Ventoy</b></a>&nbsp;&nbsp;<sub>★&nbsp;81k</sub><br>
 <sub>多系统启动 U 盘方案</sub>
 </td>
 </tr>
