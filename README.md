@@ -144,7 +144,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/project-zot/zot/releases/latest"><img src="assets/releases/project-zot-zot.svg" width="78" height="20" align="right" alt="v2.1.22"></a>
+<a href="https://github.com/project-zot/zot/releases/latest"><img src="assets/releases/project-zot-zot.svg" width="78" height="20" align="right" alt="v2.1.23"></a>
 <img src="https://github.com/project-zot.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/project-zot/zot"><b>zot</b></a>&nbsp;&nbsp;<sub>★&nbsp;2.9k</sub><br>
 <sub>OCI 原生镜像仓库</sub>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.8"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;390</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;392</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
