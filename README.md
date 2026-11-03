@@ -146,7 +146,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/project-zot/zot/releases/latest"><img src="assets/releases/project-zot-zot.svg" width="78" height="20" align="right" alt="v2.1.23"></a>
 <img src="https://github.com/project-zot.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/project-zot/zot"><b>zot</b></a>&nbsp;&nbsp;<sub>★&nbsp;2.9k</sub><br>
+<a href="https://github.com/project-zot/zot"><b>zot</b></a>&nbsp;&nbsp;<sub>★&nbsp;3k</sub><br>
 <sub>OCI 原生镜像仓库</sub>
 </td>
 <td width="50%" valign="top">
