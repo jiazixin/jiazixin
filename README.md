@@ -62,7 +62,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/caddyserver/caddy/releases/latest"><img src="assets/releases/caddyserver-caddy.svg" width="78" height="20" align="right" alt="v2.11.7"></a>
+<a href="https://github.com/caddyserver/caddy/releases/latest"><img src="assets/releases/caddyserver-caddy.svg" width="78" height="20" align="right" alt="v2.11.8"></a>
 <img src="https://github.com/caddyserver.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/caddyserver/caddy"><b>caddy</b></a>&nbsp;&nbsp;<sub>★&nbsp;79k</sub><br>
 <sub>自动 HTTPS 的 Web 服务器</sub>
