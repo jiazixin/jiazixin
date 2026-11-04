@@ -34,7 +34,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/fatedier/frp/releases/latest"><img src="assets/releases/fatedier-frp.svg" width="78" height="20" align="right" alt="v0.71.1"></a>
+<a href="https://github.com/fatedier/frp/releases/latest"><img src="assets/releases/fatedier-frp.svg" width="78" height="20" align="right" alt="v0.72.0"></a>
 <img src="https://github.com/fatedier.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/fatedier/frp"><b>frp</b></a>&nbsp;&nbsp;<sub>★&nbsp;110k</sub><br>
 <sub>内网穿透，暴露 NAT 后的服务</sub>
@@ -164,7 +164,7 @@
 <sub>分布式可靠键值存储</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="78" height="20" align="right" alt="v1.13.2"></a>
+<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="78" height="20" align="right" alt="v1.13.8"></a>
 <img src="https://github.com/opentofu.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/opentofu/opentofu"><b>opentofu</b></a>&nbsp;&nbsp;<sub>★&nbsp;31k</sub><br>
 <sub>开源的基础设施即代码</sub>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.8"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;400</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;401</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
