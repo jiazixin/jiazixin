@@ -82,7 +82,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/prometheus/prometheus/releases/latest"><img src="assets/releases/prometheus-prometheus.svg" width="78" height="20" align="right" alt="v3.15.1"></a>
+<a href="https://github.com/prometheus/prometheus/releases/latest"><img src="assets/releases/prometheus-prometheus.svg" width="78" height="20" align="right" alt="v3.16.0"></a>
 <img src="https://github.com/prometheus.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/prometheus/prometheus"><b>prometheus</b></a>&nbsp;&nbsp;<sub>★&nbsp;67k</sub><br>
 <sub>监控系统与时序数据库</sub>
@@ -164,7 +164,7 @@
 <sub>分布式可靠键值存储</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="78" height="20" align="right" alt="v1.13.8"></a>
+<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="78" height="20" align="right" alt="v1.13.9"></a>
 <img src="https://github.com/opentofu.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/opentofu/opentofu"><b>opentofu</b></a>&nbsp;&nbsp;<sub>★&nbsp;31k</sub><br>
 <sub>开源的基础设施即代码</sub>
@@ -260,7 +260,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.8"></a>
+<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.9"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;402</sub><br>
 <sub>Apple Silicon 系统监控</sub>
