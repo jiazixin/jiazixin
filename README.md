@@ -160,7 +160,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/etcd-io/etcd/releases/latest"><img src="assets/releases/etcd-io-etcd.svg" width="71" height="20" align="right" alt="v3.7.3"></a>
 <img src="https://github.com/etcd-io.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/etcd-io/etcd"><b>etcd</b></a>&nbsp;&nbsp;<sub>★&nbsp;52k</sub><br>
+<a href="https://github.com/etcd-io/etcd"><b>etcd</b></a>&nbsp;&nbsp;<sub>★&nbsp;53k</sub><br>
 <sub>分布式可靠键值存储</sub>
 </td>
 <td width="50%" valign="top">
@@ -214,7 +214,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/OpenListTeam/OpenList/releases/latest"><img src="assets/releases/openlistteam-openlist.svg" width="71" height="20" align="right" alt="v4.2.9"></a>
 <img src="https://github.com/OpenListTeam.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/OpenListTeam/OpenList"><b>OpenList</b></a>&nbsp;&nbsp;<sub>★&nbsp;25k</sub><br>
+<a href="https://github.com/OpenListTeam/OpenList"><b>OpenList</b></a>&nbsp;&nbsp;<sub>★&nbsp;26k</sub><br>
 <sub>多存储聚合的文件列表</sub>
 </td>
 <td width="50%" valign="top">
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.9"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;403</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;404</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
