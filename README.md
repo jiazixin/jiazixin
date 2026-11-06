@@ -246,7 +246,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/iina/iina/releases/latest"><img src="assets/releases/iina-iina.svg" width="71" height="20" align="right" alt="v1.5.0"></a>
+<a href="https://github.com/iina/iina/releases/latest"><img src="assets/releases/iina-iina.svg" width="71" height="20" align="right" alt="v1.5.1"></a>
 <img src="https://github.com/iina.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/iina/iina"><b>IINA</b></a>&nbsp;&nbsp;<sub>★&nbsp;47k</sub><br>
 <sub>macOS 现代视频播放器</sub>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.9"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;402</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;403</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
