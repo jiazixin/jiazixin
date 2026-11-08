@@ -84,7 +84,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/prometheus/prometheus/releases/latest"><img src="assets/releases/prometheus-prometheus.svg" width="78" height="20" align="right" alt="v3.16.0"></a>
 <img src="https://github.com/prometheus.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/prometheus/prometheus"><b>prometheus</b></a>&nbsp;&nbsp;<sub>★&nbsp;67k</sub><br>
+<a href="https://github.com/prometheus/prometheus"><b>prometheus</b></a>&nbsp;&nbsp;<sub>★&nbsp;68k</sub><br>
 <sub>监控系统与时序数据库</sub>
 </td>
 <td width="50%" valign="top">
@@ -186,7 +186,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/smallstep/certificates/releases/latest"><img src="assets/releases/smallstep-certificates.svg" width="78" height="20" align="right" alt="v0.30.2"></a>
 <img src="https://github.com/smallstep.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/smallstep/certificates"><b>certificates</b></a>&nbsp;&nbsp;<sub>★&nbsp;9k</sub><br>
+<a href="https://github.com/smallstep/certificates"><b>certificates</b></a>&nbsp;&nbsp;<sub>★&nbsp;9.1k</sub><br>
 <sub>私有 CA 与 ACME 服务</sub>
 </td>
 </tr>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.9"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;407</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;408</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
