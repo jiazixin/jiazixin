@@ -68,7 +68,7 @@
 <sub>自动 HTTPS 的 Web 服务器</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.7"></a>
+<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.8"></a>
 <img src="https://github.com/jeessy2.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/jeessy2/ddns-go"><b>ddns-go</b></a>&nbsp;&nbsp;<sub>★&nbsp;18k</sub><br>
 <sub>支持主流服务商的 DDNS</sub>
@@ -130,7 +130,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/goharbor/harbor/releases/latest"><img src="assets/releases/goharbor-harbor.svg" width="78" height="20" align="right" alt="v2.14.6"></a>
+<a href="https://github.com/goharbor/harbor/releases/latest"><img src="assets/releases/goharbor-harbor.svg" width="78" height="20" align="right" alt="v2.16.0"></a>
 <img src="https://github.com/goharbor.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/goharbor/harbor"><b>harbor</b></a>&nbsp;&nbsp;<sub>★&nbsp;30k</sub><br>
 <sub>云原生镜像仓库</sub>
@@ -260,7 +260,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="71" height="20" align="right" alt="v0.2.9"></a>
+<a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="78" height="20" align="right" alt="v0.2.10"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;408</sub><br>
 <sub>Apple Silicon 系统监控</sub>
