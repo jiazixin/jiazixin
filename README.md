@@ -36,7 +36,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/fatedier/frp/releases/latest"><img src="assets/releases/fatedier-frp.svg" width="78" height="20" align="right" alt="v0.72.0"></a>
 <img src="https://github.com/fatedier.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/fatedier/frp"><b>frp</b></a>&nbsp;&nbsp;<sub>★&nbsp;110k</sub><br>
+<a href="https://github.com/fatedier/frp"><b>frp</b></a>&nbsp;&nbsp;<sub>★&nbsp;111k</sub><br>
 <sub>内网穿透，暴露 NAT 后的服务</sub>
 </td>
 <td width="50%" valign="top">
@@ -130,7 +130,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/goharbor/harbor/releases/latest"><img src="assets/releases/goharbor-harbor.svg" width="78" height="20" align="right" alt="v2.16.0"></a>
+<a href="https://github.com/goharbor/harbor/releases/latest"><img src="assets/releases/goharbor-harbor.svg" width="78" height="20" align="right" alt="v2.14.6"></a>
 <img src="https://github.com/goharbor.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/goharbor/harbor"><b>harbor</b></a>&nbsp;&nbsp;<sub>★&nbsp;30k</sub><br>
 <sub>云原生镜像仓库</sub>
