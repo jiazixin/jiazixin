@@ -54,7 +54,7 @@
 <sub>Mihomo 内核的桌面客户端</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest"><img src="assets/releases/metacubex-clashmetaforandroid.svg" width="85" height="20" align="right" alt="v2.11.36"></a>
+<a href="https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest"><img src="assets/releases/metacubex-clashmetaforandroid.svg" width="85" height="20" align="right" alt="v2.11.37"></a>
 <img src="https://github.com/MetaCubeX.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/MetaCubeX/ClashMetaForAndroid"><b>ClashMeta Android</b></a>&nbsp;&nbsp;<sub>★&nbsp;49k</sub><br>
 <sub>Android 规则代理客户端</sub>
@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="78" height="20" align="right" alt="v0.2.10"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;423</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;427</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
