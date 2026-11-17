@@ -68,7 +68,7 @@
 <sub>自动 HTTPS 的 Web 服务器</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.8"></a>
+<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.9"></a>
 <img src="https://github.com/jeessy2.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/jeessy2/ddns-go"><b>ddns-go</b></a>&nbsp;&nbsp;<sub>★&nbsp;18k</sub><br>
 <sub>支持主流服务商的 DDNS</sub>
@@ -226,7 +226,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/hslr-s/sun-panel/releases/latest"><img src="assets/releases/hslr-s-sun-panel.svg" width="71" height="20" align="right" alt="v1.7.0"></a>
+<a href="https://github.com/hslr-s/sun-panel/releases/latest"><img src="assets/releases/hslr-s-sun-panel.svg" width="71" height="20" align="right" alt="v1.8.1"></a>
 <img src="https://github.com/hslr-s.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/hslr-s/sun-panel"><b>sun-panel</b></a>&nbsp;&nbsp;<sub>★&nbsp;5.4k</sub><br>
 <sub>服务器 / NAS 导航面板</sub>
