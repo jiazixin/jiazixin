@@ -88,7 +88,7 @@
 <sub>监控系统与时序数据库</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/prometheus/node_exporter/releases/latest"><img src="assets/releases/prometheus-node_exporter.svg" width="78" height="20" align="right" alt="v1.12.1"></a>
+<a href="https://github.com/prometheus/node_exporter/releases/latest"><img src="assets/releases/prometheus-node_exporter.svg" width="78" height="20" align="right" alt="v1.13.0"></a>
 <img src="https://github.com/prometheus.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/prometheus/node_exporter"><b>node_exporter</b></a>&nbsp;&nbsp;<sub>★&nbsp;14k</sub><br>
 <sub>主机指标采集器</sub>
