@@ -88,7 +88,7 @@
 <sub>监控系统与时序数据库</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/prometheus/node_exporter/releases/latest"><img src="assets/releases/prometheus-node_exporter.svg" width="78" height="20" align="right" alt="v1.13.0"></a>
+<a href="https://github.com/prometheus/node_exporter/releases/latest"><img src="assets/releases/prometheus-node_exporter.svg" width="78" height="20" align="right" alt="v1.13.1"></a>
 <img src="https://github.com/prometheus.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/prometheus/node_exporter"><b>node_exporter</b></a>&nbsp;&nbsp;<sub>★&nbsp;14k</sub><br>
 <sub>主机指标采集器</sub>
@@ -146,7 +146,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/project-zot/zot/releases/latest"><img src="assets/releases/project-zot-zot.svg" width="78" height="20" align="right" alt="v2.1.23"></a>
 <img src="https://github.com/project-zot.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/project-zot/zot"><b>zot</b></a>&nbsp;&nbsp;<sub>★&nbsp;3k</sub><br>
+<a href="https://github.com/project-zot/zot"><b>zot</b></a>&nbsp;&nbsp;<sub>★&nbsp;3.1k</sub><br>
 <sub>OCI 原生镜像仓库</sub>
 </td>
 <td width="50%" valign="top">
@@ -198,7 +198,7 @@
 <sub>X.509 / JWT 瑞士军刀</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/cloudflare/cfssl/releases/latest"><img src="assets/releases/cloudflare-cfssl.svg" width="71" height="20" align="right" alt="v1.7.1"></a>
+<a href="https://github.com/cloudflare/cfssl/releases/latest"><img src="assets/releases/cloudflare-cfssl.svg" width="71" height="20" align="right" alt="v1.7.2"></a>
 <img src="https://github.com/cloudflare.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/cloudflare/cfssl"><b>cfssl</b></a>&nbsp;&nbsp;<sub>★&nbsp;9.5k</sub><br>
 <sub>Cloudflare 的 PKI 工具包</sub>
