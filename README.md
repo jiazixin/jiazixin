@@ -96,7 +96,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/google/cadvisor/releases/latest"><img src="assets/releases/google-cadvisor.svg" width="78" height="20" align="right" alt="v0.61.0"></a>
+<a href="https://github.com/google/cadvisor/releases/latest"><img src="assets/releases/google-cadvisor.svg" width="78" height="20" align="right" alt="v0.61.1"></a>
 <img src="https://github.com/google.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/google/cadvisor"><b>cadvisor</b></a>&nbsp;&nbsp;<sub>★&nbsp;20k</sub><br>
 <sub>容器资源与性能分析</sub>
@@ -158,7 +158,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/etcd-io/etcd/releases/latest"><img src="assets/releases/etcd-io-etcd.svg" width="71" height="20" align="right" alt="v3.7.3"></a>
+<a href="https://github.com/etcd-io/etcd/releases/latest"><img src="assets/releases/etcd-io-etcd.svg" width="71" height="20" align="right" alt="v3.7.4"></a>
 <img src="https://github.com/etcd-io.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/etcd-io/etcd"><b>etcd</b></a>&nbsp;&nbsp;<sub>★&nbsp;53k</sub><br>
 <sub>分布式可靠键值存储</sub>
@@ -212,7 +212,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/OpenListTeam/OpenList/releases/latest"><img src="assets/releases/openlistteam-openlist.svg" width="71" height="20" align="right" alt="v4.2.9"></a>
+<a href="https://github.com/OpenListTeam/OpenList/releases/latest"><img src="assets/releases/openlistteam-openlist.svg" width="78" height="20" align="right" alt="v4.2.10"></a>
 <img src="https://github.com/OpenListTeam.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/OpenListTeam/OpenList"><b>OpenList</b></a>&nbsp;&nbsp;<sub>★&nbsp;26k</sub><br>
 <sub>多存储聚合的文件列表</sub>
