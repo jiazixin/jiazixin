@@ -70,7 +70,7 @@
 <sub>自动 HTTPS 的 Web 服务器</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.17.9"></a>
+<a href="https://github.com/jeessy2/ddns-go/releases/latest"><img src="assets/releases/jeessy2-ddns-go.svg" width="78" height="20" align="right" alt="v6.18.0"></a>
 <img src="https://github.com/jeessy2.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/jeessy2/ddns-go"><b>ddns-go</b></a>&nbsp;&nbsp;<sub>★&nbsp;18k</sub><br>
 <sub>支持主流服务商的 DDNS</sub>
