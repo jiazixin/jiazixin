@@ -35,6 +35,20 @@
       "logo": "assets/logos/vvideo.svg",
       "desc": "自托管 NAS 照片视频库，配原生安卓应用浏览播放",
       "stack": ["go", "kotlin"]
+    },
+    {
+      "repo": "jiazixin/video-convert",
+      "title": "video-convert · 视频转码",
+      "logo": "assets/logos/video-convert.svg",
+      "desc": "NVENC 自动选参压缩 AV1 / HEVC，整片画质验收",
+      "stack": ["go", "vue"]
+    },
+    {
+      "repo": "jiazixin/agy-statusline",
+      "title": "agy-statusline · 状态栏",
+      "logo": "assets/logos/agy-statusline.svg",
+      "desc": "Antigravity CLI 双行状态栏：零依赖、渐变进度条",
+      "stack": ["go"]
     }
   ],
   "watching": [

@@ -20,6 +20,8 @@
 <a href="https://github.com/jiazixin/video-rename"><img src="assets/cards/video-rename.svg" width="49%" alt="video-rename · 视频命名 — 在浏览器里整理媒体文件，视觉模型按截图自动起名"></a>
 <a href="https://github.com/jiazixin/navi"><img src="assets/cards/navi.svg" width="49%" alt="Navi — 个人导航起始页：一个 YAML 文件、一个二进制"></a>
 <a href="https://github.com/jiazixin/vvideo"><img src="assets/cards/vvideo.svg" width="49%" alt="VVideo — 自托管 NAS 照片视频库，配原生安卓应用浏览播放"></a>
+<a href="https://github.com/jiazixin/video-convert"><img src="assets/cards/video-convert.svg" width="49%" alt="video-convert · 视频转码 — NVENC 自动选参压缩 AV1 / HEVC，整片画质验收"></a>
+<a href="https://github.com/jiazixin/agy-statusline"><img src="assets/cards/agy-statusline.svg" width="49%" alt="agy-statusline · 状态栏 — Antigravity CLI 双行状态栏：零依赖、渐变进度条"></a>
 </p>
 <!-- MINE:END -->
 

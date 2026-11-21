@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="agy-bar" x1="29" y1="25" x2="46" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7DCFFF"/>
+      <stop offset="55%" stop-color="#7AA2F7"/>
+      <stop offset="100%" stop-color="#BB9AF7"/>
+    </linearGradient>
+  </defs>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="14.25" fill="#24283B" stroke="#3B4261" stroke-width="1.5"/>
+  <path d="M18 17.5 19.8 23.2 25.5 25 19.8 26.8 18 32.5 16.2 26.8 10.5 25 16.2 23.2Z" fill="#7DCFFF"/>
+  <rect x="29" y="21.5" width="24" height="7" rx="3.5" fill="#3B4261"/>
+  <rect x="29" y="21.5" width="17" height="7" rx="3.5" fill="url(#agy-bar)"/>
+  <circle cx="15" cy="42" r="3" fill="#9ECE6A"/>
+  <rect x="21.5" y="39.5" width="17" height="5" rx="2.5" fill="#737AA2"/>
+  <rect x="42" y="39.5" width="11" height="5" rx="2.5" fill="#E0AF68"/>
+</svg>
