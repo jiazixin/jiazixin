@@ -180,7 +180,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/go-acme/lego/releases/latest"><img src="assets/releases/go-acme-lego.svg" width="71" height="20" align="right" alt="v5.6.0"></a>
+<a href="https://github.com/go-acme/lego/releases/latest"><img src="assets/releases/go-acme-lego.svg" width="71" height="20" align="right" alt="v5.7.0"></a>
 <img src="https://github.com/go-acme.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/go-acme/lego"><b>lego</b></a>&nbsp;&nbsp;<sub>★&nbsp;10k</sub><br>
 <sub>Let's Encrypt / ACME 客户端</sub>
