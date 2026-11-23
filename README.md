@@ -140,7 +140,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/goharbor/harbor-cli/releases/latest"><img src="assets/releases/goharbor-harbor-cli.svg" width="78" height="20" align="right" alt="v0.0.27"></a>
 <img src="https://github.com/goharbor.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/goharbor/harbor-cli"><b>harbor-cli</b></a>&nbsp;&nbsp;<sub>★&nbsp;167</sub><br>
+<a href="https://github.com/goharbor/harbor-cli"><b>harbor-cli</b></a>&nbsp;&nbsp;<sub>★&nbsp;168</sub><br>
 <sub>Harbor 官方命令行</sub>
 </td>
 </tr>
@@ -166,7 +166,7 @@
 <sub>分布式可靠键值存储</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="78" height="20" align="right" alt="v1.13.9"></a>
+<a href="https://github.com/opentofu/opentofu/releases/latest"><img src="assets/releases/opentofu-opentofu.svg" width="85" height="20" align="right" alt="v1.13.10"></a>
 <img src="https://github.com/opentofu.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/opentofu/opentofu"><b>opentofu</b></a>&nbsp;&nbsp;<sub>★&nbsp;31k</sub><br>
 <sub>开源的基础设施即代码</sub>
