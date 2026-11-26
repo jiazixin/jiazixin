@@ -228,7 +228,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/hslr-s/sun-panel/releases/latest"><img src="assets/releases/hslr-s-sun-panel.svg" width="71" height="20" align="right" alt="v1.8.1"></a>
+<a href="https://github.com/hslr-s/sun-panel/releases/latest"><img src="assets/releases/hslr-s-sun-panel.svg" width="71" height="20" align="right" alt="v2.0.2"></a>
 <img src="https://github.com/hslr-s.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/hslr-s/sun-panel"><b>sun-panel</b></a>&nbsp;&nbsp;<sub>★&nbsp;5.4k</sub><br>
 <sub>服务器 / NAS 导航面板</sub>
