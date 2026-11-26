@@ -138,7 +138,7 @@
 <sub>云原生镜像仓库</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/goharbor/harbor-cli/releases/latest"><img src="assets/releases/goharbor-harbor-cli.svg" width="78" height="20" align="right" alt="v0.0.27"></a>
+<a href="https://github.com/goharbor/harbor-cli/releases/latest"><img src="assets/releases/goharbor-harbor-cli.svg" width="78" height="20" align="right" alt="v0.0.28"></a>
 <img src="https://github.com/goharbor.png?size=64" width="32" height="32" align="left" alt="">
 <a href="https://github.com/goharbor/harbor-cli"><b>harbor-cli</b></a>&nbsp;&nbsp;<sub>★&nbsp;168</sub><br>
 <sub>Harbor 官方命令行</sub>
@@ -264,7 +264,7 @@
 <td width="50%" valign="top">
 <a href="https://github.com/Nongfsq/ftop/releases/latest"><img src="assets/releases/nongfsq-ftop.svg" width="78" height="20" align="right" alt="v0.2.11"></a>
 <img src="https://github.com/Nongfsq.png?size=64" width="32" height="32" align="left" alt="">
-<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;448</sub><br>
+<a href="https://github.com/Nongfsq/ftop"><b>ftop</b></a>&nbsp;&nbsp;<sub>★&nbsp;449</sub><br>
 <sub>Apple Silicon 系统监控</sub>
 </td>
 <td width="50%" valign="top">
